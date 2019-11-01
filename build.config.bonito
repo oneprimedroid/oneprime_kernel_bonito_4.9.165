@@ -1,7 +1,7 @@
-DEFCONFIG=bonito_defconfig
+DEFCONFIG=oneprime_bonito_defconfig
 KERNEL_DIR=private/msm-google
 . ${ROOT_DIR}/${KERNEL_DIR}/build.config.common.clang
-POST_DEFCONFIG_CMDS="check_defconfig"
+POST_DEFCONFIG_CMDS=""
 UNSTRIPPED_MODULES="
 wlan.ko
 "
